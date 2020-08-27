@@ -6,3 +6,4 @@ def line(katz_deli)
     puts "You are currently number #{customer}"
   end
 end
+end
