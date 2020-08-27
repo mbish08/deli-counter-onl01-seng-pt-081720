@@ -5,7 +5,7 @@ def line(katz_deli)
   
   def line(other_deli)
     if other_deli > 0 
-    other_deli.each_with_index do |customer|
+    other_deli.each do |customer|
     puts "You are currently number #{customer}"
   end
 end
