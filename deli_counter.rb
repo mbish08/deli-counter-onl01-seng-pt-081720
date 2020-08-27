@@ -19,5 +19,5 @@ def take_a_number(katz_deli, name)
   if katz_deli.empty?
     waiting_position << katz_deli.shift(name)
   end
-    puts "Welcome, #{name}. You are number #{waiting_position.count} in line."
+    puts "Welcome, #{name}. You are number #{waiting_position.size} in line."
 end
