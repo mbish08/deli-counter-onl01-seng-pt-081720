@@ -8,7 +8,7 @@ def line(katz_deli)
     position = 1 
     katz_deli.each do |name|
       line_positions << "#{position}. #{name}"
-      number += 1 
+      position += 1 
   end
   puts "The line is currently: #{line_positions.join(" ")}"
 end
