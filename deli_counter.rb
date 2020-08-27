@@ -22,6 +22,6 @@ end
 def now_serving(katz_deli)
   line_positions = []
   if katz_deli.empty?
-    puts 
+    puts "There is nobody waiting to be served!"
   end
 end
