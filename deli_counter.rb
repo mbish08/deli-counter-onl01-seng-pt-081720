@@ -15,7 +15,7 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  waiting_position = []
+  katz_deli << name
   if katz_deli.empty?
     waiting_position << katz_deli.shift(name)
   end
